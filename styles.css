@@ -14,7 +14,6 @@ html,body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
     padding: 70px;
 
 }
@@ -46,6 +45,14 @@ ul {
 .container-1-main {
     display: flex;
     justify-content: space-between;
+}
+
+.container-1-heading {
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    width: 300px;
 }
 
 
