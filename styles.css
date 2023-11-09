@@ -34,9 +34,10 @@ html,body {
 
 
 ul {
-    list-style-type: none;
     display: flex;
     gap: 15px;
+    list-style-type: none;
+
 
 }
 
@@ -94,7 +95,13 @@ ul {
     justify-content: flex-end;
 }
 
+.container-4-body {
+    display: flex;
+    gap: 200px;
+    background-color: #3882F6;
+    color: white;
 
+}
 .container-4 {
     display: flex;
     justify-content: space-evenly;
@@ -106,15 +113,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
 
 }
 
 button {
     width: 100px;
     border: 1px solid white;
-    background-color: rgb(19, 82, 177);
+    background-color: #3882F6;
     border-radius: 5px;
     padding: 5px;
+    color: white;
 }
 
 .footer {
